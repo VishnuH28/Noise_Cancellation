@@ -95,31 +95,6 @@ noise-cancellation-system/
 └── README.md         # Documentation
 ```
 
-## Pushing to GitHub
-
-If you haven't pushed this project to GitHub yet, follow these steps:
-
-1. Create a new repository on GitHub:
-   - Go to github.com
-   - Click "New repository"
-   - Name it "noise-cancellation-system"
-   - Don't initialize with README (we have our own)
-
-2. Create a requirements.txt file:
-```bash
-pip freeze > requirements.txt
-```
-
-3. Initialize local repository and push:
-```bash
-git init
-git add .
-git commit -m "Initial commit: Real-time noise cancellation system"
-git branch -M main
-git remote add origin https://github.com/your-username/noise-cancellation-system.git
-git push -u origin main
-```
-
 ## Contributing
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
 
